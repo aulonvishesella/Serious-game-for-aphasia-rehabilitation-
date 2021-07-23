@@ -22,15 +22,13 @@ The following references were presented to my speech therapist that were drawn a
 * Using FileStream to read/write/open/close to a file, given the correct path, that contains the saved player data.
 
 
-# Links 
 
-
-# Game Screenshots
+# Game Screenshots 📷
 
 
 
 
-# Before you get started
+# Before you get started ⏸️
 This project uses the game engine Unity and uses Unity SDK file in order to use IBM watsons speech to text API 
 
 So:

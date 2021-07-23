@@ -11,7 +11,7 @@ The following references were presented to my speech therapist that were drawn a
  * 
 
 
-# What I learnt
+# What I learnt :rocket:
 * Using Watson IBM speech to text API to detect normal sounding audio and convert into text.
 * Incremental process model - applying this model consistently throughout development, ensuring each increment was checked and tested alongside a
   speech therapist.

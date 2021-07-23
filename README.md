@@ -1,6 +1,6 @@
 # Dissertation project :mortar_board:
 
-# About the project :computer:
+# About :computer:
 This project is a serious game, developed in Unity with scripts written in C#, aimed at the rehabilitation of aphasia with a focus on noun therapy.
 This project was a funded research project at my university and was validated by a speech therapist to ensure it can provide desired therapeutic effects
 
@@ -23,7 +23,7 @@ The following references were presented to my speech therapist that were drawn a
 
 
 
-# Game Screenshots 📷
+# Screenshots 📷
 
 
 

@@ -1,4 +1,4 @@
-# Dissertation project :mortar_board:
+# Dissertation :mortar_board:
 
 # About :computer:
 This project is a serious game, developed in Unity with scripts written in C#, aimed at the rehabilitation of aphasia with a focus on noun therapy.

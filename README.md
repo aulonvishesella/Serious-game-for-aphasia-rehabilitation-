@@ -25,6 +25,7 @@ The following references were presented to my speech therapist that were drawn a
 
 
 # Screenshots 📷
+![image]![Uploading Screenshot 2021-07-23 at 16.15.42.png…]()
 
 
 

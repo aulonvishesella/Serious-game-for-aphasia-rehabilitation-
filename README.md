@@ -13,9 +13,9 @@ The following references were presented to my speech therapist that were drawn a
 
 # What I learnt :rocket:
 * Using Watson IBM speech to text API to detect normal sounding audio and convert into text.
-* <b>Incremental process model</b> - applying this model consistently throughout development, ensuring each increment was checked and tested alongside a
+* Incremental process model - applying this model consistently throughout development, ensuring each increment was checked and tested alongside a
   speech therapist.
-* <b>Design pattern</b> - primarly focused on the state pattern for state animations like player movement.
+* Design pattern - primarly focused on the state pattern for state animations like player movement.
 * Designing relevant state machines to control animation states for the avatar and NPCs(Non Player Characters).
 * Using BinaryFormatter in C# to save the players data(score,position,level) as well as load this data. It will serialize data structures when user wishes to save, and deserializes it when the user wishes to load the saved file.
 * Using CryptoStream to encrypt and save after serialization and decrypt and load data after deserialization.

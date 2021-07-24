@@ -21,7 +21,7 @@ This project was a funded research project at my university and was validated by
 
 
 # References :book:
-Some references were presented to my speech therapist that were drawn as inspiration. As this is a serious game, all features included to be included had to be validated with my speech therapist or backed by references to ensure this game is effective.
+Some references were presented to my speech therapist that were drawn as inspiration. As this is a serious game, all features implemented were validated with my speech therapist or backed by references to ensure the game is effective in aiding users with aphasia.
 
  * Nouns chosen inspired from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367780/ and https://honeycombspeechtherapy.com/think-it-through-thursday-what-do-people-with-aphasia-want-to-say/
  * Level design inspired from https://openaccess.city.ac.uk/id/eprint/18025/1/Experiencing_EVA_Park_Galliers_TACCESS_FINAL.pdf

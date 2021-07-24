@@ -8,16 +8,16 @@ This project was a funded research project at my university and was validated by
 * Using Watson IBM speech to text API to detect normal sounding audio and convert into text.
 * Incremental process model - applying this model consistently throughout development, ensuring each increment was checked and tested alongside a
   speech therapist.
-* Applying a design pattern - primarly focused on the `state pattern` to manage the different animation states an avatar can have.
+* Applying a design pattern - primarly focused on the `State Pattern` to manage the different animation states an avatar can have.
 * Designing relevant state machines to control animation states for the avatar and NPCs(Non Player Characters).
-* Creating a saving and loading system that involved symmetric encryption that encrypted PlayerData(score,level,position) when writing to a file and decrypted when reading from a file:
+* Creating a saving and loading system , applying symmetric encryption that encrypted PlayerData(score,level,position) when writing to a file and decrypted when reading from a file. This involved:
   * Creating an instance of `AES` to generate the shared key(used for both encryption/decryption) and an input IV when writing PlayerData to our file and an output IV when reading from our file. This is used by the CryptoStream when encrypting/decrypting data.
   * Utilised three streams that 'wrapped' the other
     * using `StreamReader` and `StreamWriter`, which reads or writes data from and to a CryptoStream
     * using `CryptoStream`, encrypting player data when writing or decrypting the encrypted data when reading
     * using `FileStream` to read/write data into the file
-  * `JsonUtility.ToJson` to serialize PlayerData in a JSON format when writing to a file stream (this is encrypted)
-  * `JsonUtility.FromJson` to deserialize the JSON data into a pattern matching the PlayerData class when reading (this is now decrypted)
+  * Serializing PlayerData in a JSON format using `JsonUtility.ToJson`, which would be the encrypted data written to the file stream. 
+  * Deserializing the JSON data that was read from the file, into a pattern matching the PlayerData class `JsonUtility.FromJson`, which now represents the decrypted PlayerData that will be used.
 
 
 

@@ -24,7 +24,6 @@ This project was a funded research project at my university and was validated by
 Some references were presented to my speech therapist that were drawn as inspiration. As this is a serious game, all features implemented were validated with my speech therapist or backed by references to ensure the game is effective in aiding users with aphasia.
 
  * Nouns chosen inspired from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367780/ and https://honeycombspeechtherapy.com/think-it-through-thursday-what-do-people-with-aphasia-want-to-say/
- * Level design inspired from https://openaccess.city.ac.uk/id/eprint/18025/1/Experiencing_EVA_Park_Galliers_TACCESS_FINAL.pdf
  * Idea to include waypoints so the user can navigate to NPC's inspired from https://www.researchgate.net/publication/221297686_Serious_Games_for_Language_Learning_How_Much_Game_How_Much_AI
  * Communication tips like NPC's interacting with hand gestures in the game and giving the user time to speak inspired from https://www.aphasia.org/aphasia-resources/communication-tips/
  * Ensuring the game captures real world scenarios inspired from https://openaccess.city.ac.uk/id/eprint/2860/1/Computer%20delivery%20of%20gesture%20therapy%20for%20people%20with%20severe%20aphasia.pdf

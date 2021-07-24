@@ -4,13 +4,6 @@
 This project is a serious game, developed in Unity with scripts written in C#, aimed at the rehabilitation of aphasia with a focus on noun therapy.
 This project was a funded research project at my university and was validated by a speech therapist to ensure it can provide desired therapeutic effects
 
-# References :book:
-The following references were presented to my speech therapist that were drawn as inspiration, to which I would feature into my game in order to achieve the desired therapeutic effects
- * Some nouns selected based on this article https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367780/
- * Some nouns selected based on this article https://honeycombspeechtherapy.com/think-it-through-thursday-what-do-people-with-aphasia-want-to-say/
- * Level design inspiration from https://openaccess.city.ac.uk/id/eprint/18025/1/Experiencing_EVA_Park_Galliers_TACCESS_FINAL.pdf
-
-
 # What I learnt :rocket:
 * Using Watson IBM speech to text API to detect normal sounding audio and convert into text.
 * Incremental process model - applying this model consistently throughout development, ensuring each increment was checked and tested alongside a
@@ -21,6 +14,14 @@ The following references were presented to my speech therapist that were drawn a
   * <b>This involved</b>:
     * Using `CryptoStream` to encrypt and save after serialization and decrypt and load data after deserialization.
     * Using `AES` encryption to encrypt player data when written to a file, as well as decrypting data being read from a file.
+
+
+
+# References :book:
+The following references were presented to my speech therapist that were drawn as inspiration, to which I would feature into my game in order to achieve the desired therapeutic effects
+ * Some nouns selected based on this article https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367780/
+ * Some nouns selected based on this article https://honeycombspeechtherapy.com/think-it-through-thursday-what-do-people-with-aphasia-want-to-say/
+ * Level design inspiration from https://openaccess.city.ac.uk/id/eprint/18025/1/Experiencing_EVA_Park_Galliers_TACCESS_FINAL.pdf
 
 
 

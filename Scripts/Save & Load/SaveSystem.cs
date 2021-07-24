@@ -18,6 +18,8 @@ public static class SaveSystem
     //this key will be used for both encrypting data being written and decrypting data being read.
     public static byte[] savedKey;
 
+    
+     //function to load the saved PlayerData, by reading encrypted the data stored in the file, decrypting it, and returning PlayerData.
     public static PlayerData LoadPlayer()
     {
         string saveFile = Application.persistentDataPath + "/player.json";
@@ -61,6 +63,7 @@ public static class SaveSystem
         }
     }
 
+    //function to save player data, by encrypting data and writing into a file.
     public static void SavePlayer(Player player)
     {
        string saveFile = Application.persistentDataPath + "/player.json";
@@ -98,6 +101,7 @@ public static class SaveSystem
         dataStream.Close();
     }
 
+//function to delete the file
 public static void DeleteFile(){
        File.Delete(Application.persistentDataPath + "/player.json");
     }

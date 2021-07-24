@@ -10,7 +10,7 @@ This project was a funded research project at my university and was validated by
   speech therapist.
 * Applying a design pattern - primarly focused on the `State Pattern` to manage the different animation states an avatar can have.
 * Designing relevant state machines to control animation states for the avatar and NPCs(Non Player Characters).
-* Creating a saving and loading system , applying symmetric encryption that encrypted PlayerData(score,level,position) when writing to a file and decrypted when reading from a file. This involved:
+* Creating a saving and loading system that applied symmetric encryption, encrypting PlayerData(score,level,position) when writing to a file and decrypting when reading from a file. This involved:
   * Creating an instance of `AES` to generate the shared key(used for both encryption/decryption) and an input IV when writing PlayerData to our file and an output IV when reading from our file. This is used by the CryptoStream when encrypting/decrypting data.
   * Utilised three streams that 'wrapped' the other
     * using `StreamReader` and `StreamWriter`, which reads or writes data from and to a CryptoStream

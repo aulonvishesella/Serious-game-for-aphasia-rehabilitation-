@@ -26,7 +26,7 @@ Some references were presented to my speech therapist that were drawn as inspira
  * Nouns chosen inspired from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367780/ and https://honeycombspeechtherapy.com/think-it-through-thursday-what-do-people-with-aphasia-want-to-say/
  * Level design inspired from https://openaccess.city.ac.uk/id/eprint/18025/1/Experiencing_EVA_Park_Galliers_TACCESS_FINAL.pdf
  * Idea to include waypoints inspired from https://www.researchgate.net/publication/221297686_Serious_Games_for_Language_Learning_How_Much_Game_How_Much_AI
- * NPC's interacting with hand gestures in the game and giving the user time to speak inspired from https://www.aphasia.org/aphasia-resources/communication-tips/
+ * Communication tips like NPC's interacting with hand gestures in the game and giving the user time to speak inspired from https://www.aphasia.org/aphasia-resources/communication-tips/
  * Ensuring the game captures real world scenarios inspired from https://openaccess.city.ac.uk/id/eprint/2860/1/Computer%20delivery%20of%20gesture%20therapy%20for%20people%20with%20severe%20aphasia.pdf
 
 

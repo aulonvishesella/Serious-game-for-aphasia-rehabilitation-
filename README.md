@@ -5,19 +5,17 @@ This project is a serious game, developed in Unity with scripts written in C#, a
 This project was a funded research project at my university and was validated by a speech therapist to ensure it can provide desired therapeutic effects
 
 # What I learnt :rocket:
-* Using Watson IBM speech to text API to detect normal sounding audio and convert into text.
-* Incremental process model - applying this model consistently throughout development, ensuring each increment was checked and tested alongside a
-  speech therapist.
-* Applying a design pattern - primarly focused on the `State Pattern` to manage the different animation states an avatar can have.
-* Designing relevant state machines to control animation states for the avatar and NPCs(Non Player Characters).
-* Creating a saving and loading system that applied symmetric encryption, encrypting PlayerData(score,level,position) when writing to a file and decrypting when reading from a file. This involved:
-  * Creating an instance of `AES` to generate the shared key(used for both encryption/decryption) and an input IV when writing PlayerData to our file and an output IV when reading from our file. This is used by the CryptoStream when encrypting/decrypting data.
-  * Utilised three streams that 'wrapped' the other
+* Using `Watson IBM Speech to Text API` service to detect and convert user speech into text format; to determine if the user has said the noun correctly.
+* Follow an `Incremental Model` consistently throughout development, ensuring each increment was presented and tested alongside a speech therapist.
+* Using and designing `state machines` to capture the different animation states the main avatar and NPC's can be, subquently writing scripts to transition between these animations based on the flow of the game.
+* Implementing a `Save & Load` system that utilised symmetric encryption; encrypting PlayerData(current score, current level and position of avatar) when writing to a file and decrypting when reading from a file. In order to do this, I had to:
+  * Utilise three streams that 'wrapped' the other
     * using `StreamReader` and `StreamWriter`, which reads or writes data from and to a CryptoStream
     * using `CryptoStream`, encrypting player data when writing or decrypting the encrypted data when reading
     * using `FileStream` to read/write data into the file
-  * Serializing PlayerData in a JSON format using `JsonUtility.ToJson`, which would be the encrypted data written to the file stream. 
-  * Deserializing the JSON data that was read from the file, into a pattern matching the PlayerData class using `JsonUtility.FromJson` (the decrypted data) 
+  * Create an instance of `AES` to generate the shared key and an input IV when writing PlayerData to our file and an output IV when reading from our file. Both the shared key and IV was used by the CryptoStream when encrypting/decrypting data.
+  * Serialize PlayerData in a JSON format using `JsonUtility.ToJson`, which would be the encrypted data written to the file stream. 
+  * Deserialize the JSON data that was read from the file, into a pattern matching the PlayerData class using `JsonUtility.FromJson`, where this decrypted data will be used to load saved data.
 
 
 

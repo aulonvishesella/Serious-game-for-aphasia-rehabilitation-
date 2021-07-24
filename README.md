@@ -17,9 +17,10 @@ The following references were presented to my speech therapist that were drawn a
   speech therapist.
 * Applying a design pattern - primarly focused on the `state pattern` to manage the different animation states an avatar can have.
 * Designing relevant state machines to control animation states for the avatar and NPCs(Non Player Characters).
-* Using `BinaryFormatter` in C# to save the players data(score,position,level) as well as load this data. It will serialize data structures when user wishes to save, and deserializes it when the user wishes to load the saved file.
-* Using `CryptoStream` to encrypt and save after serialization and decrypt and load data after deserialization.
-* Using `FileStream` to read/write/open/close to a file, given the correct path, that contains the saved player data.
+* Using `System.IO` namespace to accomplish saving and loading of player data(position,level,score).
+  * <b>This involved</b>:
+    * Using `CryptoStream` to encrypt and save after serialization and decrypt and load data after deserialization.
+    * Using `AES` encryption to encrypt player data when written to a file, as well as decrypting data being read from a file.
 
 
 

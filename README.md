@@ -14,6 +14,7 @@ This project was a funded research project at my university and was validated by
   * <b>This involved</b>:
     * Using `CryptoStream` encrypts data written into the stream and decrypts data read from stream 
     * Using `AES` encryption to encrypt player data when written to a file, as well as decrypting data being read from a file.
+    * `JsonUtility.ToJson` to serialize player data in a JSON format and stored in our file. 
 
 
 

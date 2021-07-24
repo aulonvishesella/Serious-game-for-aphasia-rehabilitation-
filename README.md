@@ -10,11 +10,14 @@ This project was a funded research project at my university and was validated by
   speech therapist.
 * Applying a design pattern - primarly focused on the `state pattern` to manage the different animation states an avatar can have.
 * Designing relevant state machines to control animation states for the avatar and NPCs(Non Player Characters).
-* Using `System.IO` namespace to accomplish saving and loading of player data(position,level,score).
-  * <b>This involved</b>:
-    * Using `CryptoStream` encrypts data written into the stream and decrypts data read from stream 
-    * Using `AES` encryption to encrypt player data when written to a file, as well as decrypting data being read from a file.
-    * `JsonUtility.ToJson` to serialize player data in a JSON format and stored in our file (which will be encrypted)
+* Creating a saving and loading system that involved symmetric encryption that encrypted PlayerData(score,level,position) when writing to a file and decrypted when reading from a file:
+  * Creating an instance of `AES` to generate the shared key(used for both encryption/decryption) and an input IV when writing PlayerData to our file and an output IV when reading from our file.
+  * Utilised three streams that 'wrapped' the other
+    * using `StreamReader` and `StreamWriter`, which reads or writes data from and to a CryptoStream
+    * using `CryptoStream`, encrypting player data when writing or decrypting the encrypted data when reading
+    * using `FileStream` to read/write data into the file
+  * `JsonUtility.ToJson` to serialize PlayerData in a JSON format when writing to a file stream (this is encrypted)
+  * `JsonUtility.FromJson` to deserialize the JSON data into a pattern matching the PlayerData class when reading (this is now decrypted)
 
 
 

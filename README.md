@@ -12,7 +12,7 @@ This project was a funded research project at my university and was validated by
 * Designing relevant state machines to control animation states for the avatar and NPCs(Non Player Characters).
 * Using `System.IO` namespace to accomplish saving and loading of player data(position,level,score).
   * <b>This involved</b>:
-    * Using `CryptoStream` to encrypt and save after serialization and decrypt and load data after deserialization.
+    * Using `CryptoStream` encrypts data written into the stream and decrypts data read from stream 
     * Using `AES` encryption to encrypt player data when written to a file, as well as decrypting data being read from a file.
 
 

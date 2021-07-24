@@ -25,10 +25,10 @@ public class ObjectiveManager : MonoBehaviour
 
     public void StartObjective(){
         FindObjectOfType<AvatarController>().DisableAvatarMovement();
-		FindObjectOfType<DialogueManager>().StartDialogue(objName,npcName);
+	FindObjectOfType<DialogueManager>().StartDialogue(objName,npcName);
         FindObjectOfType<AnimatorManager>().EnableAnimator(npcName);
         FindObjectOfType<CameraFocus>().FocusCamera(npcName,new Vector3(2,3,-4)); //focus on the NPC as the quest/objective is beggining
-		FindObjectOfType<SpeechManager>().ListenToSpeech(objName); 
+	FindObjectOfType<SpeechManager>().ListenToSpeech(objName); 
     }
 
     public void EndObjective(){

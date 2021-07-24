@@ -17,81 +17,84 @@ public static class SaveSystem
     
     //this key will be used for both encrypting data being written and decrypting data being read.
     public static byte[] savedKey;
-    
-    //function to load player data, i.e, read from file and return data.
+
     public static PlayerData LoadPlayer()
     {
         string saveFile = Application.persistentDataPath + "/player.json";
-        FileStream dataStream;  // FileStream used for reading and writing files.     
-        if (File.Exists(saveFile)) //check if a file exists given the path.
-        {
-            dataStream = new FileStream(saveFile, FileMode.Open);  // Create FileStream for opening files.
-            Aes aes = Aes.Create();
-            byte[] outputIV = new byte[aes.IV.Length];
-            dataStream.Read(outputIV, 0, outputIV.Length);  // read the initilialization vector (IV) from the file.
 
-            //Create a CryptoStream in read mode
-            CryptoStream oStream = new CryptoStream(
+    
+       
+        FileStream dataStream;  // FileStream used for reading file.      
+        //check if a file exists given the path.
+        if (File.Exists(saveFile))
+        {
+            
+            dataStream = new FileStream(saveFile, FileMode.Open); // Create FileStream for opening files.
+
+            
+            Aes aes = Aes.Create();
+
+            byte[] outputIV = new byte[aes.IV.Length];
+            
+            dataStream.Read(outputIV, 0, outputIV.Length);
+
+            // Create CryptoStream in read mode, wrapping FileStream
+            CryptoStream cryptoStream = new CryptoStream(
                    dataStream,
                    aes.CreateDecryptor(savedKey, outputIV),
                    CryptoStreamMode.Read);
 
-            // Create a StreamReader, wrapping CryptoStream
-            StreamReader reader = new StreamReader(oStream);
+            // Create a StreamReader, wrapping CryptoStream, which will be used to read encrypted data
+            StreamReader reader = new StreamReader(cryptoStream);
             
-            // Read the entire file into a String value.
+           
             string text = reader.ReadToEnd();
-
-            // Deserialize the JSON data 
-            //  into a pattern matching the GameData class.
-            PlayerData playerData = JsonUtility.FromJson<PlayerData>(text);
+            
+            // Deserialize the JSON data into a pattern matching the PlayerData class and return this.
+            PlayerData playerData = JsonUtility.FromJson<PlayerData>(text); 
             return playerData;
             
         }
         else{
+            Debug.LogError("Save not found");
             return null;
         }
     }
-    
-     //function to store player data, i.e, write data to a file.
+
     public static void SavePlayer(Player player)
     {
        string saveFile = Application.persistentDataPath + "/player.json";
        
         PlayerData playerData = new PlayerData(player);
-        FileStream dataStream;
-
-    
-        // Create new AES instance.
-        Aes aes = Aes.Create();
-        // Update the internal key.
-        savedKey = aes.Key;
-
-        // Create a FileStream for creating files.
-        dataStream = new FileStream(saveFile, FileMode.Create);
-
-        // Save the new generated IV.
-        byte[] inputIV = aes.IV;
         
-        // Write the IV to the FileStream unencrypted.
-        dataStream.Write(inputIV, 0, inputIV.Length);
+        FileStream dataStream; // FileStream used for writing file. 
 
-        // Create CryptoStream, wrapping FileStream.
-        CryptoStream iStream = new CryptoStream(
+        Aes aes = Aes.Create();
+        
+        savedKey = aes.Key; // Update the internal key. This will be used also for decryption.
+        
+        dataStream = new FileStream(saveFile, FileMode.Create);  // Create a FileStream for creating files.
+        
+        byte[] inputIV = aes.IV; //generate an IV
+        
+        dataStream.Write(inputIV, 0, inputIV.Length); // Write generated IV to the filestream
+
+        // create a CryptoStream in write mode, wrapping FileStream.
+        CryptoStream cryptoStream = new CryptoStream(
                 dataStream,
                 aes.CreateEncryptor(aes.Key, aes.IV),
                 CryptoStreamMode.Write);
 
-        // Create StreamWriter, wrapping CryptoStream.
-        StreamWriter sWriter = new StreamWriter(iStream);
+       
+        StreamWriter sWriter = new StreamWriter(cryptoStream);  // Create StreamWriter to write contents into our cryptostream
 
-        // Serialize the object into JSON and save string.
-        string jsonString = JsonUtility.ToJson(playerData);
 
-        // Write to the innermost stream (which will encrypt).
-        sWriter.Write(jsonString);
+        string jsonString = JsonUtility.ToJson(playerData);  // Serialize the object into JSON format, save as a string.
+        
+        sWriter.Write(jsonString); // write string into stream, which will be encrypted. 
+
         sWriter.Close();
-        iStream.Close();
+        cryptoStream.Close();
         dataStream.Close();
     }
 

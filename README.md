@@ -6,9 +6,9 @@ This project was a funded research project at my university and was validated by
 
 # References :book:
 The following references were presented to my speech therapist that were drawn as inspiration, to which I would feature into my game in order to achieve the desired therapeutic effects
- * Chosen words inspired from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367780/
+ * Some nouns selected based on this article https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367780/
+ * Some nouns selected based on this article https://honeycombspeechtherapy.com/think-it-through-thursday-what-do-people-with-aphasia-want-to-say/
  * Level design inspiration from https://openaccess.city.ac.uk/id/eprint/18025/1/Experiencing_EVA_Park_Galliers_TACCESS_FINAL.pdf
- * 
 
 
 # What I learnt :rocket:

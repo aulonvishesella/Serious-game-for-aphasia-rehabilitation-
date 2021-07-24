@@ -17,7 +17,7 @@ This project was a funded research project at my university and was validated by
     * using `CryptoStream`, encrypting player data when writing or decrypting the encrypted data when reading
     * using `FileStream` to read/write data into the file
   * Serializing PlayerData in a JSON format using `JsonUtility.ToJson`, which would be the encrypted data written to the file stream. 
-  * Deserializing the JSON data that was read from the file, into a pattern matching the PlayerData class `JsonUtility.FromJson`, which now represents the decrypted PlayerData that will be used.
+  * Deserializing the JSON data that was read from the file, into a pattern matching the PlayerData class using `JsonUtility.FromJson` (the decrypted data) 
 
 
 

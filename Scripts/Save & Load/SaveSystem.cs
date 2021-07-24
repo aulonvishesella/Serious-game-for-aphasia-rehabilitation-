@@ -17,30 +17,20 @@ public static class SaveSystem
     
     //this key will be used for both encrypting data being written and decrypting data being read.
     public static byte[] savedKey;
-
+    
+    //function to load player data, i.e, read from file and return data.
     public static PlayerData LoadPlayer()
     {
         string saveFile = Application.persistentDataPath + "/player.json";
-
-    
-        // FileStream used for reading and writing files.
-        FileStream dataStream;      
-        //check if a file exists given the path.
-        if (File.Exists(saveFile))
+        FileStream dataStream;  // FileStream used for reading and writing files.     
+        if (File.Exists(saveFile)) //check if a file exists given the path.
         {
-            // Create FileStream for opening files.
-            dataStream = new FileStream(saveFile, FileMode.Open);
-
-            // Create new AES instance.
+            dataStream = new FileStream(saveFile, FileMode.Open);  // Create FileStream for opening files.
             Aes aes = Aes.Create();
-
-            // Create an array of correct size based on AES IV.
             byte[] outputIV = new byte[aes.IV.Length];
-            
-            // Read the IV from the file.
-            dataStream.Read(outputIV, 0, outputIV.Length);
+            dataStream.Read(outputIV, 0, outputIV.Length);  // read the initilialization vector (IV) from the file.
 
-            // Create CryptoStream, wrapping FileStream
+            //Create a CryptoStream in read mode
             CryptoStream oStream = new CryptoStream(
                    dataStream,
                    aes.CreateDecryptor(savedKey, outputIV),
@@ -62,7 +52,8 @@ public static class SaveSystem
             return null;
         }
     }
-
+    
+     //function to store player data, i.e, write data to a file.
     public static void SavePlayer(Player player)
     {
        string saveFile = Application.persistentDataPath + "/player.json";

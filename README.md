@@ -1,7 +1,7 @@
 # Dissertation :mortar_board:
 
 # About :computer:
-This project is a serious game, developed in Unity with scripts written in C#, aimed at the rehabilitation of aphasia with a focus on noun therapy. The game aims to provide an free-roaming experience, handing control to the user to undetake the objective of naming a particular object. If the user wishes to do so, they can navigate the avatar to NPC's situated around the map aided with the use of waypoints. To encapsulate a realistic game, each NPC will interact with hand gestures, audio to match the dialogue and has a particular object besides it that matches the theme of the level.
+This project is a serious game, developed in Unity with scripts written in C#, aimed at the rehabilitation of aphasia with a focus on noun therapy. The game aims to provide a free-roaming experience, handing control to the user to undetake the objective of naming a particular object. If the user wishes to do so, they can navigate the avatar to NPC's situated around the map aided with the use of waypoints. To encapsulate a realistic game, each NPC will interact with hand gestures, audio to match the dialogue and have a particular object besides that matches the theme of the level.
 
 For each level, the user will have 5 different objects they will attempt to name with objects chosen to represent the theme of the level. Level 1 attempts to represent a park, whilst level 2 attempts to represent a town market and finally level 3 attempts to represent a town market. 
 
@@ -26,7 +26,7 @@ For this project, I worked closely with academics and a speech therapist that we
 
 
 # References :book:
-Some references were presented to my speech therapist that were drawn as inspiration. As this is a serious game, all features implemented were validated with my speech therapist or backed by references to ensure the game is effective in aiding users with aphasia.
+Some references were presented to my speech therapist that were drawn as inspiration. As this is a serious game, all features implemented were validated with my speech therapist or backed by references to ensure the game can provide desired therapeutic effects.
 
  * Nouns chosen inspired from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367780/ and https://honeycombspeechtherapy.com/think-it-through-thursday-what-do-people-with-aphasia-want-to-say/
  * Idea to include waypoints so the user can navigate to NPC's inspired from https://www.researchgate.net/publication/221297686_Serious_Games_for_Language_Learning_How_Much_Game_How_Much_AI

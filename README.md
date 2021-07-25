@@ -1,8 +1,12 @@
 # Dissertation :mortar_board:
 
 # About :computer:
-This project is a serious game, developed in Unity with scripts written in C#, aimed at the rehabilitation of aphasia with a focus on noun therapy.
-This project was a funded research project at my university and was validated by a speech therapist to ensure it can provide desired therapeutic effects
+This project is a serious game, developed in Unity with scripts written in C#, aimed at the rehabilitation of aphasia with a focus on noun therapy. The game aims to provide an free-roaming experience, handing control to the user to undetake the objective of naming a particular object. If the user wishes to do so, they can navigate the avatar to NPC's situated around the map aided with the use of waypoints. To encapsulate a realistic game, each NPC will interact with hand gestures, audio to match the dialogue and has a particular object besides it that matches the theme of the level.
+
+For each level, the user will have 5 different objects they will attempt to name with objects chosen to represent the theme of the level. Level 1 attempts to represent a park, whilst level 2 attempts to represent a town market and finally level 3 attempts to represent a town market. 
+
+For this project, I worked closely with academics and a speech therapist that were doing this work as part of a funded research project. 
+
 
 # What I learnt :rocket:
 * Using `Watson IBM Speech to Text API` service to detect and convert user speech into text format; to determine if the user has said the noun correctly. 

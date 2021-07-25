@@ -17,6 +17,7 @@ This project was a funded research project at my university and was validated by
   * Serialize PlayerData in a json format using `JsonUtility.ToJson`, which would be the encrypted data written to the file stream. 
   * Deserialize the json data that was read from the file, into a pattern matching the PlayerData class using `JsonUtility.FromJson`, where this decrypted data will be used to load saved data.
 * Adopting the `System.Collections.Generic` namespace to make use of certain Data Structures. For example, the Queue adopted during development to become an integral part of the games dialogue system between the NPC and Avatar.
+* Using Unity's particle system to simulate visual effects like fire,smoke and other effects that would otherwise be difficulty to portray.
 
 
 
@@ -27,6 +28,7 @@ Some references were presented to my speech therapist that were drawn as inspira
  * Idea to include waypoints so the user can navigate to NPC's inspired from https://www.researchgate.net/publication/221297686_Serious_Games_for_Language_Learning_How_Much_Game_How_Much_AI
  * Communication tips like not informing the user that they have said the word wrong, have NPC's interact with hand gestures in the game and to not put a time limit to say the word inspired from https://www.aphasia.org/aphasia-resources/communication-tips/
  * Ensuring the game captures real world scenarios inspired from https://openaccess.city.ac.uk/id/eprint/2860/1/Computer%20delivery%20of%20gesture%20therapy%20for%20people%20with%20severe%20aphasia.pdf
+ * Inspiration to use visual references like objects in the game to support their understanding and to name the word correctly from https://www.nhs.uk/conditions/aphasia/treatment/
 
 
 

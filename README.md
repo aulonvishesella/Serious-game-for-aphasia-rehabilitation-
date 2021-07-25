@@ -5,7 +5,7 @@ This project is a serious game, developed in Unity with scripts written in C#, a
 This project was a funded research project at my university and was validated by a speech therapist to ensure it can provide desired therapeutic effects
 
 # What I learnt :rocket:
-* Using `Watson IBM Speech to Text API` service to detect and convert user speech into text format; to determine if the user has said the noun correctly.
+* Using `Watson IBM Speech to Text API` service to detect and convert user speech into text format; to determine if the user has said the noun correctly. 
 * Follow an `Incremental Model` consistently throughout development, ensuring each increment was presented and tested alongside a speech therapist.
 * Using and designing `state machines` to capture the different animation states the main avatar and NPC's can be, subquently writing scripts to transition between these animations based on the flow of the game.
 * Implementing a `Save & Load` system that utilised symmetric encryption; encrypting PlayerData(current score, current level and position of avatar) when writing to a file and decrypting when reading from a file. In order to do this, I had to:
@@ -25,8 +25,9 @@ Some references were presented to my speech therapist that were drawn as inspira
 
  * Nouns chosen inspired from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367780/ and https://honeycombspeechtherapy.com/think-it-through-thursday-what-do-people-with-aphasia-want-to-say/
  * Idea to include waypoints so the user can navigate to NPC's inspired from https://www.researchgate.net/publication/221297686_Serious_Games_for_Language_Learning_How_Much_Game_How_Much_AI
- * Communication tips like NPC's interacting with hand gestures in the game and giving the user time to speak inspired from https://www.aphasia.org/aphasia-resources/communication-tips/
+ * Communication tips like not informing the user that they have said the word wrong, have NPC's interact with hand gestures in the game and to not put a time limit to say the word inspired from https://www.aphasia.org/aphasia-resources/communication-tips/
  * Ensuring the game captures real world scenarios inspired from https://openaccess.city.ac.uk/id/eprint/2860/1/Computer%20delivery%20of%20gesture%20therapy%20for%20people%20with%20severe%20aphasia.pdf
+
 
 
 

@@ -24,7 +24,7 @@ For this project, I worked closely with academics and a speech therapist that we
 
  
 # What I learnt :rocket:
-* Using `Watson IBM Speech to Text API` service to detect and convert user speech into text format; to determine if the user has said the noun correctly. 
+* Using `Watson IBM Speech to Text API` service to detect and convert users verbal input into text format; to determine if the user has said the noun correctly. 
 * Follow an `Incremental Model` consistently throughout development, ensuring each increment was presented and tested alongside a speech therapist.
 * Using and designing `state machines` to capture the different animation states the main avatar and NPC's can be, subquently writing scripts to transition between these animations based on the flow of the game.
 * Implementing a `Save & Load` system that utilised symmetric encryption; encrypting PlayerData(current score, current level and position of avatar) when writing to a file and decrypting when reading from a file. In order to do this, I had to:

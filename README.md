@@ -1,11 +1,13 @@
 # Dissertation :mortar_board:
 
 # About :computer:
-This project is a serious game, developed in Unity with scripts written in C#, aimed at the rehabilitation of aphasia with a focus on noun therapy. The game aims to provide a free-roaming experience, handing control to the user to undetake the objective of naming a particular object. If the user wishes to do so, they can navigate the avatar to NPC's situated around the map aided with the use of waypoints. To encapsulate a realistic game, each NPC will interact with hand gestures, audio to match the dialogue and have a particular object besides that matches the theme of the level.
+This project is a serious game, developed in Unity with scripts written in C#, aimed at the rehabilitation of aphasia with a focus on noun therapy. The game aims to provide a free-roaming experience, handing all control to the user to undetake any objective of naming a particular object. If the user wishes to do so, they can navigate the avatar to NPC's situated around the level aided through the use of waypoints, and interact with them. 
 
-For each level, the user will have 5 different objects they will attempt to name with objects chosen to represent the theme of the level. Level 1 attempts to represent a park, whilst level 2 attempts to represent a town market and finally level 3 attempts to represent a town market. 
+To encapsulate a realistic game, the followings were implemented: the level designs were to match realistic themes, NPC's to preform hand gestures when interacting with the user, audio to match dialogue when NPC interacting with the user and match objects the user has to name to the theme of the level.
 
-For this project, I worked closely with academics and a speech therapist that were doing this work as part of a funded research project. 
+For each level, the user will have 5 different objects they will attempt to name with objects chosen to represent the theme of the level. Level 1 attempts to represent a park, whilst level 2 attempts to represent a town market with and finally level 3 attempts to represent a town. 
+
+For this project, I worked closely with academics and a speech therapist that were doing this work as part of a funded research project. It was pivital this project was worked alongside a speech therapist in order to have all requirements validated and refined to achieve the desired therapeutic effects. 
 
 
 # What I learnt :rocket:

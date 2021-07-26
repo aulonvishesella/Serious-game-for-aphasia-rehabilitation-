@@ -1,22 +1,27 @@
 # Dissertation :mortar_board:
 
 # About :computer:
-This project is a serious game, developed in Unity with scripts written in C#, aimed at the rehabilitation of aphasia with a focus on noun therapy. The game aims to provide a free-roaming experience, handing all control to the user to undetake any objective of naming a particular object.
+This project is a serious game, developed in Unity with scripts written in C#, aimed at the rehabilitation of aphasia with a focus on noun therapy. The game aims to provide a free-roaming experience, handing all control to the user to undertake any objective of naming a particular object.
 
-For this project, I worked closely with academics and a speech therapist that were doing this work as part of a funded research project. It was pivital this project was worked alongside a speech therapist in order to have all requirements validated and refined to achieve the desired therapeutic effects. 
+For this project, I worked closely with academics and a speech therapist that were doing this work as part of a funded research project. It was pivital this project was worked alongside a speech therapist to have all requirements validated and refined to achieve the desired therapeutic effects. 
 
-# Main features of the game  📜
-* 3 levels each representing a realistic theme(a park, a market and a town).
-* 5 different themed objects within each level that the user is able to attempt saying.
+# Main features 📜
+* Three levels each representing a realistic theme (a park, a market, and a town).
+* Five different themed objects within each level that the user can attempt to name.
 * Option for the user to skip the attempt if they wish so.
-* Interacts with the NPC dedicated to that object if they wish to attempt saying an object.
-* Use of waypoints to aid the user to navigate their way to an NPC.
+* The user interacts with the NPC dedicated to that object if they wish to attempt to name the object.
+* Use of waypoints to guide the user to various NPC's
 * Dialogue system between the avatar and NPC when attempting to name an object. The communication will involve:
-  * Text.
-  * Audio to match the text.
-  * Hand gestures from the NPC to represent a realistic interaction.
-* Save & Load system where the user is able save their progress (current level they are in, current score for that level and position of the avatar) as well as load last saved progress.
+  * Text
+  * Audio to match the text
+  * Hand gestures from the NPC to represent a realistic interaction
+* The user is congratulated when they have correctly named an object by incrementing their score and playing an 'applause' sound effect.
+* Save & Load system inplace for the game. The saved data will include:
+  * The current level
+  * The current score achieved for that level
+  * The current position of the avatar
 * Option to overwrite saved data.
+
  
 # What I learnt :rocket:
 * Using `Watson IBM Speech to Text API` service to detect and convert user speech into text format; to determine if the user has said the noun correctly. 
@@ -38,7 +43,7 @@ For this project, I worked closely with academics and a speech therapist that we
 # References :book:
 Some references were presented to my speech therapist that were drawn as inspiration. As this is a serious game, all features implemented were validated with my speech therapist or backed by references to ensure the game can provide desired therapeutic effects.
 
- * Nouns chosen inspired from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367780/ and https://honeycombspeechtherapy.com/think-it-through-thursday-what-do-people-with-aphasia-want-to-say/
+ * Noun selection inspired from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367780/ and https://honeycombspeechtherapy.com/think-it-through-thursday-what-do-people-with-aphasia-want-to-say/
  * Idea to include waypoints so the user can navigate to NPC's inspired from https://www.researchgate.net/publication/221297686_Serious_Games_for_Language_Learning_How_Much_Game_How_Much_AI
  * Communication tips like not informing the user that they have said the word wrong, have NPC's interact with hand gestures in the game and to not put a time limit to say the word inspired from https://www.aphasia.org/aphasia-resources/communication-tips/
  * Ensuring the game captures real world scenarios inspired from https://openaccess.city.ac.uk/id/eprint/2860/1/Computer%20delivery%20of%20gesture%20therapy%20for%20people%20with%20severe%20aphasia.pdf

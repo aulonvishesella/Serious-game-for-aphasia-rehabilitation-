@@ -1,15 +1,23 @@
 # Dissertation :mortar_board:
 
 # About :computer:
-This project is a serious game, developed in Unity with scripts written in C#, aimed at the rehabilitation of aphasia with a focus on noun therapy. The game aims to provide a free-roaming experience, handing all control to the user to undetake any objective of naming a particular object. If the user wishes to do so, they can navigate the avatar to NPC's situated around the level aided through the use of waypoints, and interact with them. 
-
-To encapsulate a realistic game, the followings were implemented: the level designs were to match realistic themes, NPC's to preform hand gestures when interacting with the user, audio to match dialogue when NPC interacting with the user and match objects the user has to name to the theme of the level.
-
-For each level, the user will have 5 different objects they will attempt to name with objects chosen to represent the theme of the level. Level 1 attempts to represent a park, whilst level 2 attempts to represent a town market with and finally level 3 attempts to represent a town. 
+This project is a serious game, developed in Unity with scripts written in C#, aimed at the rehabilitation of aphasia with a focus on noun therapy. The game aims to provide a free-roaming experience, handing all control to the user to undetake any objective of naming a particular object.
 
 For this project, I worked closely with academics and a speech therapist that were doing this work as part of a funded research project. It was pivital this project was worked alongside a speech therapist in order to have all requirements validated and refined to achieve the desired therapeutic effects. 
 
-
+# Main features of the game  📜
+* 3 levels each representing a realistic theme(a park, a market and a town).
+* 5 different themed objects within each level that the user is able to attempt saying.
+* Option for the user to skip the attempt if they wish so.
+* Interacts with the NPC dedicated to that object if they wish to attempt saying an object.
+* Use of waypoints to aid the user to navigate their way to an NPC.
+* Dialogue system between the avatar and NPC when attempting to name an object. The communication will involve:
+  * Text.
+  * Audio to match the text.
+  * Hand gestures from the NPC to represent a realistic interaction.
+* Save & Load system where the user is able save their progress (current level they are in, current score for that level and position of the avatar) as well as load last saved progress.
+* Option to overwrite saved data.
+ 
 # What I learnt :rocket:
 * Using `Watson IBM Speech to Text API` service to detect and convert user speech into text format; to determine if the user has said the noun correctly. 
 * Follow an `Incremental Model` consistently throughout development, ensuring each increment was presented and tested alongside a speech therapist.

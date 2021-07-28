@@ -23,7 +23,7 @@ For this project, I worked closely with academics and a speech therapist that we
 * Option to overwrite saved data.
  
 # What I learnt :rocket:
-* Using `Watson IBM Speech to Text API` service to detect and convert users verbal input into text format; to determine if the user has said the noun correctly. 
+* Using `IBM Watson Speech to Text API`, to produce transcripts of the users verbal input which will be used to determine if the user has named the object correctly.
 * Follow an `Incremental Model` consistently throughout development, ensuring each increment was presented and tested alongside a speech therapist.
 * Using and designing `state machines` to capture the different animation states the main avatar and NPC's can be, subquently writing scripts to transition between these animations based on the flow of the game.
 * Implementing a `Save & Load` system that utilised symmetric encryption; encrypting PlayerData(current score, current level and position of avatar) when writing to a file and decrypting when reading from a file. In order to do this, I had to:
@@ -47,7 +47,13 @@ Some references were presented to my speech therapist that were drawn as inspira
  * Inspiration to use visual references like objects in the game to support their understanding and to name the word correctly from https://www.nhs.uk/conditions/aphasia/treatment/
 
 
+# Before you get started ⏸️
 
+1. Download Unity
+2. You need an IBM Cloud account to generate service credentials, url and API Key, in order to authenticate to the API.
+3. This project uses Unity SDK file in order to use IBM watsons speech to text API. So Download the unity SDK file from:https://github.com/watson-developer-cloud/unity-sdk and add this inside the game asset.
+4. Take the script 'ExampleStreaming.cs' from the SDK file and add this into a game component.
+5. Paste the service credentials you generated into the empty fields that are required from the ExampleStreaming script.
 
 
 # Screenshots 📷
@@ -56,15 +62,5 @@ Some references were presented to my speech therapist that were drawn as inspira
 
 
 
-# Before you get started ⏸️
-This project uses the game engine Unity and uses Unity SDK file in order to use IBM watsons speech to text API 
-
-So:
-
-1. Download Unity
-2. You need an IBM Cloud account to generate service credentials; url and apikey.
-3. Download the unity SDK file from:https://github.com/watson-developer-cloud/unity-sdk and add this inside the game asset
-4. Take the script 'ExampleStreaming.cs' from the SDK file, and add this into game component.
-5. Paste the service credentials you generated into the empty fields inside the inspector.
 
 

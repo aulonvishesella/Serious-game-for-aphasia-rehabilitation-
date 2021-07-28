@@ -50,9 +50,9 @@ Some references were presented to my speech therapist that were drawn as inspira
 
  * Noun selection inspired from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367780/ and https://honeycombspeechtherapy.com/think-it-through-thursday-what-do-people-with-aphasia-want-to-say/
  * Idea to include waypoints so the user can navigate to NPC's inspired from https://www.researchgate.net/publication/221297686_Serious_Games_for_Language_Learning_How_Much_Game_How_Much_AI
- * Communication tips like not informing the user that they have said the word wrong, have NPC's interact with hand gestures in the game and to not put a time limit to say the word inspired from https://www.aphasia.org/aphasia-resources/communication-tips/
+ * Communication tips like not informing the user that they have said the word wrong, have NPCs interact with hand gestures in the game and to not put a time limit when the user is attempting to name the object inspired from https://www.aphasia.org/aphasia-resources/communication-tips/
  * Ensuring the game captures real world scenarios inspired from https://openaccess.city.ac.uk/id/eprint/2860/1/Computer%20delivery%20of%20gesture%20therapy%20for%20people%20with%20severe%20aphasia.pdf
- * Inspiration to use visual references like objects in the game to support their understanding and to name the word correctly from https://www.nhs.uk/conditions/aphasia/treatment/
+ * Use visual references like objects in the game to support their understanding and to name the object correctly inspired from https://www.nhs.uk/conditions/aphasia/treatment/
 
 # Screenshots 📷
 

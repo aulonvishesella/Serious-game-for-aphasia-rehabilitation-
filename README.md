@@ -16,7 +16,7 @@ For this project, I worked closely with academics and a speech therapist that we
   * Audio to match the text
   * Hand gestures from the NPC to represent a realistic interaction
 * The user is congratulated when they have correctly named an object by incrementing their score and playing an 'applause' sound effect.
-* Save & Load system inplace for the game. The saved data will include:
+* Encrypted Save & Load system inplace for the game. The saved data will include:
   * The current level
   * The current score achieved for that level
   * The current position of the avatar

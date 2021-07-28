@@ -86,7 +86,7 @@ Some references were presented to my speech therapist that were drawn as inspira
  <img src="Game%20Screenshots/Level%201/l1p3.png" width="350" >
 </p>
 
- * Image below showing the user has said the word 'bench', hence incrementing score counter.
+ * Image below showing the user has named the object correctly, hence incrementing the score.
 ![](Game%20Screenshots/Level%201/l1p4.png)
 
 
@@ -105,7 +105,7 @@ Some references were presented to my speech therapist that were drawn as inspira
  <img src="Game%20Screenshots/Level%202/l2p4.png" width="350" >
 </p>
 
- * Image below showing the user has said the word 'banana', hence incrementing score counter.
+ * Image below showing the user has named the object correctly, hence incrementing the score.
 ![](Game%20Screenshots/Level%202/l2p5.png)
 
 <h2> Level 3 </h2>
@@ -122,7 +122,7 @@ Some references were presented to my speech therapist that were drawn as inspira
  <img src="Game%20Screenshots/Level%203/l3p4.png" width="350" >
 </p>
 
- * Image below showing the user has said the word 'bicycle', hence incrementing score counter.
+ * Image below showing the user has named the object correctly., hence incrementing score counter.
 ![](Game%20Screenshots/Level%203/l3p5.png)
 
 

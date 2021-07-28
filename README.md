@@ -18,7 +18,7 @@ For this project, I worked closely with academics and a speech therapist that we
 * Five different themed objects within each level that the user can attempt to name.
 * Option for the user to skip the attempt if they wish so.
 * The user interacts with the NPC dedicated to that object if they wish to attempt to name the object.
-* Use of waypoints to guide the user to various NPC's
+* Use of waypoints to guide the user to various NPCs
 * Dialogue system between the avatar and NPC when attempting to name an object. The communication will involve:
   * Text
   * Audio to match the text
@@ -31,8 +31,8 @@ For this project, I worked closely with academics and a speech therapist that we
 * Option to overwrite saved data.
  
 # What I learnt :rocket:
-* Using `IBM Watson Speech to Text API`, to produce transcripts of the users verbal input which will be used to determine if the user has named the object correctly.
-* Follow an `Incremental Model` consistently throughout development, ensuring each increment was presented and tested alongside a speech therapist.
+* Using `IBM Watson Speech to Text API` to produce transcripts of the users verbal input which will be used to determine if the user has named the object correctly.
+* Followed an `Incremental Model` consistently throughout development, ensuring each increment was presented and tested alongside a speech therapist.
 * Using and designing `state machines` to capture the different animation states the main avatar and NPC's can be, subquently writing scripts to transition between these animations based on the flow of the game.
 * Implementing a `Save & Load` system that utilised symmetric encryption; encrypting PlayerData(current score, current level and position of avatar) when writing to a file and decrypting when reading from a file. In order to do this, I had to:
   * Utilise three streams that 'wrapped' the other

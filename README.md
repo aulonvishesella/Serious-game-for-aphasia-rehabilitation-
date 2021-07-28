@@ -40,8 +40,8 @@ For this project, I worked closely with academics and a speech therapist that we
     * using `CryptoStream`, encrypting player data when writing or decrypting the encrypted data when reading
     * using `FileStream` to read/write data into the file
   * Create an instance of `AES` to generate the shared key and an input IV when writing PlayerData to our file and an output IV when reading from our file. Both the shared key and IV was used by the CryptoStream when encrypting/decrypting data.
-  * Serialize PlayerData in a json format using `JsonUtility.ToJson`, which would be the encrypted data written to the file stream. 
-  * Deserialize the json data that was read from the file, into a pattern matching the PlayerData class using `JsonUtility.FromJson`, where this decrypted data will be used to load saved data.
+  * Serialize PlayerData in a JSON format using `JsonUtility.ToJson`, which would be the encrypted data written to the file stream. 
+  * Deserialize the JSON data that was read from the file, into a pattern matching the PlayerData class using `JsonUtility.FromJson`, where this decrypted data will be used to load saved data.
 * Adopting the `System.Collections.Generic` namespace to make use of certain Data Structures. For example, the Queue adopted during development to become an integral part of the games dialogue system between the NPC and Avatar.
 
 

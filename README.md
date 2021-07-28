@@ -60,14 +60,23 @@ Some references were presented to my speech therapist that were drawn as inspira
 
 <h1> Menu </h1>
  <p align="center">
-  <p> Pause Menu</p>
+  <p> Pause menu</p>
   <img src="Game%20Screenshots/Menus/menup1.png" width="350" >
   <p> Dialogue outputted warning user saved progress will be overwritten if they continue. This is presented if user wishes to start a new game when saved progress exists </p>
   <img src="Game%20Screenshots/Menus/menup2.png" width="350" >
-  <p> 
- <img src="Game%20Screenshots/Level%201/l1p3.png" width="350" >
+  <p> If user attempts to load a non existing save file</p>
+  <img src="Game%20Screenshots/Menus/menup3.png" width="350" >
+  <p> Loading screen implemented so the user has something to look at whilst a particular scene is being loaded in the background</p>
+  <img src="Game%20Screenshots/Menus/loadp1.png" width="350" >
+  <img src="Game%20Screenshots/Menus/loadp2.png" width="350" >
+
 </p>
 
+<h2> Saved Player Data </h2>
+<p align="center">
+  <p> json file showing the current player progress(level,score for that level,avatar position in that level) encrypted.</p>
+  <img src="Game%20Screenshots/encrypted%20save%20data/dataencrypt.png" width="450" >
+</p>
 
 
 <h2> Level 1 </h2>
@@ -81,6 +90,42 @@ Some references were presented to my speech therapist that were drawn as inspira
 
  * Image below showing the user has said the word 'bench', hence incrementing score counter.
 ![](Game%20Screenshots/Level%201/l1p4.png)
+
+
+<h2> Level 2 </h2>
+  
+   <p align="center">
+  <img src="Game%20Screenshots/Level%202/l2p1.png" width="350" >
+  <img src="Game%20Screenshots/Level%202/l2p6.png" width="350" >
+  </p>
+  
+
+  * Dialogue System
+<p align="center">
+  <img src="Game%20Screenshots/Level%202/l2p2.png" width="350" >
+  <img src="Game%20Screenshots/Level%202/l2p3.png" width="350" >
+ <img src="Game%20Screenshots/Level%202/l2p4.png" width="350" >
+</p>
+
+ * Image below showing the user has said the word 'banana', hence incrementing score counter.
+![](Game%20Screenshots/Level%202/l2p5.png)
+
+<h2> Level 3 </h2>
+
+   <p align="center">
+  <img src="Game%20Screenshots/Level%203/l3p1.png" width="350" >
+  </p>
+  
+
+  * Dialogue System
+<p align="center">
+  <img src="Game%20Screenshots/Level%203/l3p2.png" width="350" >
+  <img src="Game%20Screenshots/Level%203/l3p3.png" width="350" >
+ <img src="Game%20Screenshots/Level%203/l3p4.png" width="350" >
+</p>
+
+ * Image below showing the user has said the word 'bicycle', hence incrementing score counter.
+![](Game%20Screenshots/Level%203/l3p5.png)
 
 
 

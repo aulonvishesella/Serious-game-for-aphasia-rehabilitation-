@@ -51,7 +51,7 @@ Some references were presented to my speech therapist that were drawn as inspira
 
 
 # Screenshots 📷
-![image]![Uploading Screenshot 2021-07-23 at 16.15.42.png…]()
+
 
 
 

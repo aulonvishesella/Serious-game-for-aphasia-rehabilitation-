@@ -4,7 +4,7 @@
 
 1. Download Unity
 2. You need an IBM Cloud account to generate service credentials, url and API Key, in order to authenticate to the API.
-3. This project uses Unity SDK file in order to use IBM watsons speech to text API. So Download the unity SDK file from:https://github.com/watson-developer-cloud/unity-sdk and add this inside the game asset.
+3. This project uses Unity SDK file in order to use IBM watsons speech to text API. Download the unity SDK file from:https://github.com/watson-developer-cloud/unity-sdk and add this inside the game asset.
 4. Take the script 'ExampleStreaming.cs' from the SDK file and add this into a game component.
 5. Paste the service credentials you generated into the empty fields that are required by ExampleStreaming script.
 

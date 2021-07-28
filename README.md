@@ -58,6 +58,29 @@ Some references were presented to my speech therapist that were drawn as inspira
 
 # Screenshots 📷
 
+<h1> Menu </h1>
+ <p align="center">
+  <p> Pause Menu</p>
+  <img src="Game%20Screenshots/Menus/menup1.png" width="350" >
+  <p> Dialogue outputted warning user saved progress will be overwritten if they continue. This is presented if user wishes to start a new game when saved progress exists </p>
+  <img src="Game%20Screenshots/Menus/menup2.png" width="350" >
+  <p> 
+ <img src="Game%20Screenshots/Level%201/l1p3.png" width="350" >
+</p>
+
+
+
+<h2> Level 1 </h2>
+
+  * Dialogue System
+<p align="center">
+  <img src="Game%20Screenshots/Level%201/l1p1.png" width="350" >
+  <img src="Game%20Screenshots/Level%201/l1p2.png" width="350" >
+ <img src="Game%20Screenshots/Level%201/l1p3.png" width="350" >
+</p>
+
+ * Image below showing the user has said the word 'bench', hence incrementing score counter.
+![](Game%20Screenshots/Level%201/l1p4.png)
 
 
 

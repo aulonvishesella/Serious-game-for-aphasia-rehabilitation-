@@ -1,5 +1,13 @@
 # Dissertation :mortar_board:
 
+# Before you get started ⏸️
+
+1. Download Unity
+2. You need an IBM Cloud account to generate service credentials, url and API Key, in order to authenticate to the API.
+3. This project uses Unity SDK file in order to use IBM watsons speech to text API. So Download the unity SDK file from:https://github.com/watson-developer-cloud/unity-sdk and add this inside the game asset.
+4. Take the script 'ExampleStreaming.cs' from the SDK file and add this into a game component.
+5. Paste the service credentials you generated into the empty fields that are required by ExampleStreaming script.
+
 # About :computer:
 This project is a serious game, developed in Unity with scripts written in C#, aimed at the rehabilitation of aphasia with a focus on noun therapy. The game aims to provide a free-roaming experience, handing all control to the user to undertake any objective of naming a particular object.
 
@@ -45,16 +53,6 @@ Some references were presented to my speech therapist that were drawn as inspira
  * Communication tips like not informing the user that they have said the word wrong, have NPC's interact with hand gestures in the game and to not put a time limit to say the word inspired from https://www.aphasia.org/aphasia-resources/communication-tips/
  * Ensuring the game captures real world scenarios inspired from https://openaccess.city.ac.uk/id/eprint/2860/1/Computer%20delivery%20of%20gesture%20therapy%20for%20people%20with%20severe%20aphasia.pdf
  * Inspiration to use visual references like objects in the game to support their understanding and to name the word correctly from https://www.nhs.uk/conditions/aphasia/treatment/
-
-
-# Before you get started ⏸️
-
-1. Download Unity
-2. You need an IBM Cloud account to generate service credentials, url and API Key, in order to authenticate to the API.
-3. This project uses Unity SDK file in order to use IBM watsons speech to text API. So Download the unity SDK file from:https://github.com/watson-developer-cloud/unity-sdk and add this inside the game asset.
-4. Take the script 'ExampleStreaming.cs' from the SDK file and add this into a game component.
-5. Paste the service credentials you generated into the empty fields that are required by ExampleStreaming script.
-
 
 # Screenshots 📷
 

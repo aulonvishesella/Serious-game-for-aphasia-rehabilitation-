@@ -72,7 +72,7 @@ Some references were presented to my speech therapist that were drawn as inspira
 
 <h2> Saved Player Data </h2>
 <p align="center">
-  <p> json file showing the current player progress(level,score for that level,avatar position in that level) encrypted.</p>
+  <p> json file showing the current saved player progress(level,score for that level,avatar position in that level) encrypted.</p>
   <img src="Game%20Screenshots/encrypted%20save%20data/dataencrypt.png" width="450" >
 </p>
 

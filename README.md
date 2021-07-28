@@ -21,7 +21,6 @@ For this project, I worked closely with academics and a speech therapist that we
   * The current score achieved for that level
   * The current position of the avatar
 * Option to overwrite saved data.
-
  
 # What I learnt :rocket:
 * Using `Watson IBM Speech to Text API` service to detect and convert users verbal input into text format; to determine if the user has said the noun correctly. 
@@ -36,8 +35,6 @@ For this project, I worked closely with academics and a speech therapist that we
   * Serialize PlayerData in a json format using `JsonUtility.ToJson`, which would be the encrypted data written to the file stream. 
   * Deserialize the json data that was read from the file, into a pattern matching the PlayerData class using `JsonUtility.FromJson`, where this decrypted data will be used to load saved data.
 * Adopting the `System.Collections.Generic` namespace to make use of certain Data Structures. For example, the Queue adopted during development to become an integral part of the games dialogue system between the NPC and Avatar.
-* Using Unity's particle system to simulate visual effects like fire,smoke and other effects that would otherwise be difficulty to portray.
-
 
 
 # References :book:

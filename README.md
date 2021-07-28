@@ -13,7 +13,7 @@ This project is a serious game, developed in Unity with scripts written in C#, a
 
 For this project, I worked closely with academics and a speech therapist that were doing this work as part of a funded research project. It was pivital this project was worked alongside a speech therapist to have all requirements validated and refined to achieve the desired therapeutic effects. 
 
-# Main features 📜
+# Features 📜
 * Three levels each representing a realistic theme (a park, a market, and a town).
 * Five different themed objects within each level that the user can attempt to name.
 * Option for the user to skip the attempt if they wish so.
@@ -27,7 +27,7 @@ For this project, I worked closely with academics and a speech therapist that we
 * Encrypted Save & Load system inplace for the game. The saved data will include:
   * The current level
   * The current score achieved for that level
-  * The current position of the avatar
+  * The current position of the avatar in that level
 * Option to overwrite saved data.
  
 # What I learnt :rocket:

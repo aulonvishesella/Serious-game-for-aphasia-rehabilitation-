@@ -27,14 +27,8 @@ public class WaypointController : MonoBehaviour
             Transform target = pointers[i].target;
             img.enabled=true;
 
-            /* 
-            We do not want the marker (the arrow) to go offscreen.
-            To fix it, we create limitation variables:
-                -> for the minimum width X, will be 0 + half of its sprite width
-                -> for the minimum height Y, 0 + half of its sprite height
-                -> for the maximum width X it would be the screen width - half of sprite width 
-                -> for the maximum height Y it is screen height - half of the sprite height.
-            */
+            
+            //We do not want the marker (the arrow) to go offscreen. Therefore,we create limitation variables:
             float minX = img.GetPixelAdjustedRect().width/2;
             float maxX = Screen.width - minX;
             float minY = img.GetPixelAdjustedRect().height/2;

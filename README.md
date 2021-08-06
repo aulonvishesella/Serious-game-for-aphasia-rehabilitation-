@@ -34,7 +34,7 @@ For this project, I worked closely with academics and a speech therapist that we
 * Using `IBM Watson Speech to Text API` to produce transcripts of the users verbal input which will be used to determine if the user has named the object correctly.
 * Using `Feature Driven Development (FDD)` consistently throughout development, with each developed feature validated by a speech therapist. By doing so, I was able to adjust the overall model from the feedback made by the speech therapist, which was pivotal in making sure that the finished product can provide the desired therapeutic effects.
 * Using and designing `state machines` to capture the different animation states the main avatar and NPC's can be, subquently writing scripts to transition between these animations based on the flow of the game.
-* Implementing a `Save & Load` system that utilised symmetric encryption; encrypting PlayerData(current score, current level and position of avatar) when writing to a file and decrypting when reading from a file. In order to do this, I had to:
+* Implementing a `Save & Load` system that utilised symmetric encryption; encrypting PlayerData when writing to a file and decrypting when reading from a file. In order to do this, I had to:
   * Utilise three streams that 'wrapped' the other
     * using `StreamReader` and `StreamWriter`, which reads or writes data from and to a CryptoStream
     * using `CryptoStream`, encrypting player data when writing or decrypting the encrypted data when reading
